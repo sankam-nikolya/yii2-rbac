@@ -1,0 +1,39 @@
+{
+    "name": "sankam/yii2-rbac",
+    "description": "RBAC Auth manager for Yii2 ",
+    "keywords": ["yii", "admin", "auth", "rbac"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/sankam-nikolya/yii2-rbac"
+    },
+    "authors": [
+        {
+            "name": "Misbahul Munir",
+            "email": "misbahuldmunir@gmail.com"
+        },
+        {
+            "name": "Nikolya",
+            "email": "k_m_i@i.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "^2.0",
+        "yiisoft/yii2-jui": "^2.0",
+        "kartik-v/yii2-widget-datepicker": "*",
+        "sankam/yii2-core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sankam\\rbac\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

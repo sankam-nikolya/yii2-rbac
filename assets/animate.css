@@ -1,0 +1,48 @@
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -ms-animation: spin .7s infinite linear;
+    -webkit-animation: spinw .7s infinite linear;
+    -moz-animation: spinm .7s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+  
+@-webkit-keyframes spinw {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spinm {
+    from { -moz-transform: rotate(0deg);}
+    to { -moz-transform: rotate(360deg);}
+}
+
+.assign-elements-block {
+    padding-top: 40px;
+}
+
+.form-group-select-list {
+    margin-bottom: 2px;
+}
+
+.btns-block {
+    margin-bottom: 15px;
+}
+
+.ui-menu-item {
+    font-size: 12px;
+}
+
+.view-btns-block {
+    margin-top: 15px;
+}
+
+.ui-menu-item:hover,
+.ui-menu-item:active,
+.ui-menu-item:focus {
+    background: #3c8dbc;
+    color: #fff;
+}
